@@ -15,13 +15,13 @@ int Reverser::reverseDigit(int value) {
     // base case
     if (value < 10) {
       return value;
-   } else {
+    }
+    
     // recursive case
-        int last = value % 10;
-        int q = value / 10;
-        int reversedQ = reverseDigit(q);
-        return last * pow(10, floor(log10(reversedQ))+ 1) + reversedQ;
-   }
+    int last = value % 10;
+    int q = value / 10;
+    int reversedQ = reverseDigit(q);
+    return last * pow(10, floor(log10(reversedQ))+ 1) + reversedQ;
 
     // int reversed = 0;
     // while (value != 0) {
