@@ -3,14 +3,14 @@
 
 class Truckloads {
 
-public:
-    Truckloads();
-    int numTrucks(int numCrates, int loadSize);
+    public:
+        Truckloads();
+        int numTrucks(int numCrates, int loadSize);
 
-private:
-    int numCrates;
-    int loadSize;
-    
+    private:
+        int numCrates;
+        int loadSize;
+        
 };
 
 #endif
