@@ -10,9 +10,9 @@ int main() {
 
     cin >> numCrates >> loadSize;
 
-    Truckloads t(numCrates, loadSize);
+    Truckloads t;
 
-    cout << t.numTrucks() << endl;
+    cout << t.numTrucks(numCrates, loadSize) << endl;
 
     return 0;
 

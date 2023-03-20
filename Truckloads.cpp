@@ -3,11 +3,9 @@
 
 using namespace std;
 
-Truckloads::Truckloads(int numCrates, int loadSize) {
-
-    this->numCrates = numCrates;
-    this->loadSize = loadSize;
-
+Truckloads::Truckloads() {
+    numCrates = 0;
+    loadSize = 0;
 }
 
 
