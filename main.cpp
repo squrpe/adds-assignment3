@@ -17,3 +17,5 @@ int main() {
     return 0;
 
 }
+
+// * Output from ChatGPT, OpenAI to Lara Grocke, 20 March 2023

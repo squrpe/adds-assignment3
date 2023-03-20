@@ -5,13 +5,11 @@ class Truckloads {
 
 public:
     Truckloads(int numCrates, int loadSize);
-    int numTrucks();
+    int numTrucks(int numCrates, int loadSize);
 
 private:
     int numCrates;
     int loadSize;
-
-    int numTrucksHelper(int numCrates, int loadSize);
     
 };
 
